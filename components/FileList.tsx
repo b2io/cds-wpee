@@ -28,8 +28,10 @@ export const FileList: FC = () => (
               </div>
               <div className="ml-4 flex-shrink-0">
                 <a
+                  className="font-medium text-red-600 hover:text-red-900"
                   href={file.href}
-                  className="font-medium text-red-600 hover:text-red-900">
+                  target="_blank"
+                  rel="noreferrer noopener">
                   Download
                 </a>
               </div>
