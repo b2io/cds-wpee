@@ -17,9 +17,12 @@ export const FileList: FC = () => (
           role="list"
           className="border border-gray-200 rounded-md divide-y divide-gray-200">
           {files.map((file, index) => (
-            <li
+            <a
+              className="pl-3 pr-4 py-3 flex items-center justify-between text-sm hover:bg-gray-100 transition"
+              href={file.href}
               key={index}
-              className="pl-3 pr-4 py-3 flex items-center justify-between text-sm hover:bg-gray-100 transition">
+              rel="noreferrer noopener"
+              target="_blank">
               <div className="w-0 flex-1 flex items-center">
                 <DocumentIcon
                   className="flex-shrink-0 h-5 w-5 text-red-600"
@@ -28,15 +31,11 @@ export const FileList: FC = () => (
                 <span className="ml-2 flex-1 w-0 truncate">{file.name}</span>
               </div>
               <div className="ml-4 flex-shrink-0">
-                <a
-                  className="font-medium text-red-600 hover:text-red-900"
-                  href={file.href}
-                  target="_blank"
-                  rel="noreferrer noopener">
+                <a className="font-medium text-red-600 hover:text-red-900">
                   Download
                 </a>
               </div>
-            </li>
+            </a>
           ))}
         </ul>
       </dd>
