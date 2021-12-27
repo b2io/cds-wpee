@@ -10,7 +10,7 @@ const Home: FC = () => {
         <title>Western Pennsylvania Electrical Employees</title>
         <meta
           name="description"
-          content="This is a list of documents for members of the Western Pennsylvania Electrical Employees"
+          content="List of documents for members of the Western Pennsylvania Electrical Employees"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
