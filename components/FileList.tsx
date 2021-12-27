@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 import { DocumentIcon } from "@heroicons/react/outline";
 import { FC } from "react";
 
