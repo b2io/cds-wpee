@@ -16,8 +16,10 @@ const Home: FC = () => {
       </Head>
 
       <Header />
-      <article className="bg-gray-100 p-4">
-        <h1 className="text-3xl font-bold">Documents &amp; Forms</h1>
+      <article className="bg-gray-900 py-4 px-6">
+        <h1 className="text-white text-3xl font-bold max-w-screen-2xl mx-auto">
+          Documents &amp; Forms
+        </h1>
       </article>
       <FileList />
     </div>

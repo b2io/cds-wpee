@@ -5,13 +5,15 @@ import { FC } from "react";
 import { files } from "../data/files";
 
 export const FileList: FC = () => (
-  <div className="bg-white ">
-    <div className="py-4 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-      <h2 className="font-medium text-gray-500">
-        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-        cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+  <div className="bg-white max-w-screen-2xl mx-auto">
+    <div className="py-8 sm:grid sm:grid-cols-2 sm:gap-12 px-6 2xl:px-0">
+      <h2 className="font-medium text-gray-500 max-w-prose mb-8">
+        All insurance related questions including Hospital, Emergency
+        Department, Medical/Surgical, Major Medical, Dental and vision;
+        Pensioners Dental and Optical claims please call W.P.E.E. Insurance
+        Trust Fund 412-432-1130 or Toll Free 1-800-382-1428.
       </h2>
-      <dd className="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">
+      <dd className="mt-1 text-sm text-gray-900 sm:mt-0 ">
         <ul
           role="list"
           className="border border-gray-200 rounded-md divide-y divide-gray-200">
