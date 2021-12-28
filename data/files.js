@@ -12,7 +12,7 @@ export const files = [
     href: "/documents/WPEE SPD Nov 19 (non-bargaining).pdf",
   },
   {
-    name: "WPEE SBC 2022",
+    name: "WPEE Summary of Benefits and Coverage (2022)",
     href: "/documents/WPEE SBC 2022 FINAL (002).pdf",
   },
 ];
