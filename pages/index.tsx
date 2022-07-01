@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { FC } from "react";
 
-import { FileList, Header } from "../components";
+import { Header, LinkList } from "../components";
 
 const Home: FC = () => {
   return (
@@ -21,7 +21,7 @@ const Home: FC = () => {
           Documents &amp; Forms
         </h1>
       </article>
-      <FileList />
+      <LinkList />
     </div>
   );
 };
